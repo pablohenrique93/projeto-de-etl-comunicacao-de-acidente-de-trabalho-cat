@@ -9,12 +9,12 @@ Disponibilização dos dados de CAT, cadastradas no sistema informatizado de Com
 
 As bases disponibilizadas contém o ano de 2022 separadas por meses(coluna de controle) , a mesma é informada por sistema , telefone e ou presencial então provável existirem dados divergentes ou ausentes(faltantes)
 
-#### Nivel Infra
+#### Nível Infra
 - O arquivo original e tratado deve ser salvo em MongoDB Atlas em coleções diferentes (enumerar com o final trat ou orig) 
 - Os Datasets devem ser obrigatoriamente salvos em uma bucket do CloudStorage(original e tratado) 
 - Disponibilizar o dataset final em um mysql 
 
-#### Nivel Pandas
+#### Nível Pandas
 - Realizar a extração correta para um dataframe. 
 - Verificar a existência de dados inconsistentes e realizar a limpeza para NaN/NA ou algum valor atribuído por você explicando o porque da decisão. 
  - Realizar o drop(se necessário) de colunas do dataframe realizando o comentário do porque da exclusão 
@@ -22,7 +22,7 @@ As bases disponibilizadas contém o ano de 2022 separadas por meses(coluna de co
 - Agregar todos os DF's originais em um unico DF tratado <br>
 - Criar no mínimo 3 insights dos dados apresentados podendo ser construído com auxilio de plots 
 
-#### Nivel PySpark (Funções básicas vistas em aula) 
+#### Nível PySpark (Funções básicas vistas em aula) 
 - Deverá ser montada a estrutura do DataFrame utilizando o StructType. 
 - Verificar a existência de dados inconsistentes, nulos e realizar a limpeza. 
 - Verificar a necessidade de drop em colunas ou linhas. Caso seja necessário, fazer comentário do porque. 
